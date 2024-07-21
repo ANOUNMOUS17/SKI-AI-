@@ -1,0 +1,38 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #000; /* Dark black text */
+    background: linear-gradient(45deg, #ff6b6b, #f0f0f0); /* Gradient background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+header {
+    background: #3299c5;
+    color: #1b0101;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Footer styling */
+footer {
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
